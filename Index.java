@@ -36,7 +36,7 @@ public final class Index {
     * @return length - int
     */
 
-    static float lengthCalculator(float width, float height) {
+    static float lengthCalculator(final float width, final float height) {
         final float length = VOLUME / height / width;
         return length;
     }
